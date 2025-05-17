@@ -1,0 +1,101 @@
+baseURL = "/"
+languageCode = "en-us"
+theme = "poison"
+paginate = 10
+pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
+
+# NOTE: If using Disqus as commenting engine, uncomment and configure this line
+# disqusShortname = "yourDisqusShortname"
+
+[params]
+    brand = "Elisha Rogers"                      
+    # brand_image = "/images/test.jpg"    # path to the image shown in the sidebar
+    description = "Ahead of schedule, in the field early | Real projects, real systems, real results" # Used as default meta description if not specified in front matter
+    dark_mode = true                      # optional - defaults to false
+    # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
+
+    front_page_content = ["posts", "projects"]
+
+    # MENU PLACEHOLDER
+    # Menu dict keys:
+        # Name:         The name to display on the menu.
+        # URL:          The directory relative to the content directory.
+        # HasChildren:  If the directory's files should be listed.  Default is true.
+        # Limit:        If the files should be listed, how many should be shown.
+    menu = [
+        {Name = "About", URL = "/about/", HasChildren = false},
+        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+    ]
+
+    # Links to your socials.  Comment or delete any you don't need/use. 
+    email_url = "mailto://elisha@elisharogers.xyz"
+    github_url = "https://github.com/elishaqtrogers"
+    # linkedin_url = "https://linkedin.com"
+    # mastodon_url = "https://mastodon.social"
+
+    # A tryhackme would be a great addition since I'm advertising myself as a cyber professional. Will need to make an account.
+    # tryhackme_url = "https://tryhackme.com"
+
+
+    youtube_url = "https://youtube.com/@elishaqtrogers"
+
+    # NOTE: If you don't want to use RSS, comment or delete the following lines
+    # Adds an RSS icon to the end of the socials which links to {{ .Site.BaseURL }}/index.xml
+    rss_icon = true
+    # Which section the RSS icon links to, defaults to all content. See https://gohugo.io/templates/rss/#section-rss
+    rss_section = "posts"
+
+# Sidebar (shared across modes)
+moon_sun_background_color     = "#2D3B2F"   # deep forest green
+moon_sun_color                = "#E8F5E9"   # light mint green
+sidebar_a_color               = "#E8F5E9"   # links in sidebar
+sidebar_bg_color              = "#1B2B1A"   # dark greenish-black
+sidebar_h1_color              = "#D0E6D1"   # muted green-white
+sidebar_img_border_color      = "#3E4E3A"   # olive border
+sidebar_p_color               = "#A8C3A6"   # light desaturated green
+sidebar_socials_color         = "#CFEACF"   # pastel green
+
+# Light mode content
+code_color                    = "#1B2B1A"
+code_background_color         = "#DCEAD9"   # soft green-tinted
+code_block_color              = "#1B2B1A"
+code_block_background_color   = "#E5F0E1"
+content_bg_color              = "#F4F7F2"   # off-white with green undertone
+date_color                    = "#48634A"
+link_color                    = "#2E7D32"   # forest green
+list_color                    = "#3D533C"
+post_title_color              = "#2C3E2B"
+table_border_color            = "#DCEAD9"
+table_stripe_color            = "#F0F5EE"
+text_color                    = "#1B2B1A"
+
+# Dark mode content
+code_color_dark               = "#E8F5E9"
+code_background_color_dark    = "#354D36"
+code_block_color_dark         = "#E8F5E9"
+code_block_background_color_dark = "#223322"
+content_bg_color_dark         = "#121E14"   # very dark forest tone
+date_color_dark               = "#7FA47E"
+link_color_dark               = "#81C784"
+list_color_dark               = "#9CB89B"
+post_title_color_dark         = "#DCEAD9"
+table_border_color_dark       = "#3E4E3A"
+table_stripe_color_dark       = "#1F2D1D"
+text_color_dark               = "#E8F5E9"
+
+
+    # NOTE: If using Remark42 as commenting engine, uncomment and configure these lines
+    # remark42 = true
+    # remark42_host = "https://yourhost.com"
+    # remark42_site_id = "your_site_id"
+    
+    # NOTE: The following three params are optional and are used to create meta tags + enhance SEO.
+    # og_image = ""                       # path to social icon - front matter: image takes precedent, then og_image, then brand_url
+                                          # this is also used in the schema output as well. Image is resized to max 1200x630
+                                          # For this to work though og_image and brand_url must be a path inside the assets directory
+                                          # e.g. /assets/images/site/og-image.png becomes images/site/og-image.png
+    # publisher_icon = ""                 # path to publisher icon - defaults to favicon, used in schema
+
+[taxonomies]
+    series = 'series'
+    tags = 'tags'
