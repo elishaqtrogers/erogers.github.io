@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>project on </title>
+    <link>/tags/project/</link>
+    <description>Recent content in project on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello, World!</title>
+      <link>/posts/hello_world/</link>
+      <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hello_world/</guid>
+      <description>This is the beginning of my personal blog/portfolio. Here I will write blog posts about whatever it is I&amp;rsquo;m working on at the time, as well as any significant developments in my life.
+Hope you enjoy!</description>
+    </item>
+    
+  </channel>
+</rss>

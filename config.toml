@@ -99,3 +99,7 @@ text_color_dark               = "#E8F5E9"
 [taxonomies]
     series = 'series'
     tags = 'tags'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
