@@ -1,8 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 theme = "poison"
-pagination:
-  pagerSize: 10
+paginate = 10
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
 
 # NOTE: If using Disqus as commenting engine, uncomment and configure this line
