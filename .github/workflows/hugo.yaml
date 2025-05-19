@@ -44,8 +44,9 @@ jobs:
         run: sudo snap install dart-sass
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+  	with:
+		fetch-depth: 0  # ✅ do NOT include submodules
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
