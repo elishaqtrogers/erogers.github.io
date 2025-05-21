@@ -9,9 +9,9 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 
 [params]
     brand = "Elisha Rogers"                      
-    brand_image = "images/lambda_dark.png"    # path to the image shown in the sidebar
+    brand_image = "/images/lambda_dark.png"    # path to the image shown in the sidebar
     description = "Ahead of schedule, in the field early | Real projects, real systems, real results" 
-    # dark_mode = true                      # optional - defaults to false
+    dark_mode = true                      # optional - defaults to false
     favicon = "/favicon.ico"             # path to favicon (defaults to favicon.png)
 
     front_page_content = ["posts", "projects"]
