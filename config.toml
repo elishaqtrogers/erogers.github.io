@@ -23,22 +23,38 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
         # HasChildren:  If the directory's files should be listed.  Default is true.
         # Limit:        If the files should be listed, how many should be shown.
     menu = [
+        # Dict keys:
+            # Name:         The name to display on the menu.
+            # URL:          The directory relative to the content directory.
+            # HasChildren:  If the directory's files should be listed.  Default is true.
+            # Limit:        If the files should be listed, how many should be shown.
+
+        # SINGLE PAGE
+        # Note that you must put your markdown file 
+        # inside of a directory with the same name.
+
+        # Example:
+        # ... /content/about/about.md
         {Name = "About", URL = "/about/", HasChildren = false},
+        
+        # LIST
+        # This example has a subheading of "Recent"
+        # and will display up to 5 items.
+
+        # Example:
+        # ... /content/posts/introducing-poison.md
         {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+
+        # Example of a list without a subheading or limit.
+        {Name = "Projects", URL = "/projects/"},
     ]
 
     # Links to your socials.  Comment or delete any you don't need/use. 
     email_url = "mailto://elisha@elisharogers.xyz"
     github_url = "https://github.com/elishaqtrogers"
-    # linkedin_url = "https://linkedin.com"
-    # mastodon_url = "https://mastodon.social"
-
     # A tryhackme would be a great addition since I'm advertising myself as a cyber professional. Will need to make an account.
     # tryhackme_url = "https://tryhackme.com"
-
-
     youtube_url = "https://youtube.com/@elishaqtrogers"
-
     # NOTE: If you don't want to use RSS, comment or delete the following lines
     # Adds an RSS icon to the end of the socials which links to {{ .Site.BaseURL }}/index.xml
     rss_icon = true
