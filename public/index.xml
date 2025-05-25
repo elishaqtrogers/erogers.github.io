@@ -2,20 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Soothe Your Fingers - A Glorified Kanata &amp; Ergonomic Keyboard Advertisement</title>
+      <link>http://localhost:1313/posts/soothe-your-fingers---a-glorified-kanata--ergonomic-keyboard-advertisement/</link>
+      <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/soothe-your-fingers---a-glorified-kanata--ergonomic-keyboard-advertisement/</guid>
+      <description>&lt;p&gt;I’d like to consider myself something of a nerd. (Maybe even a &lt;em&gt;geek&lt;/em&gt;, if you will.)&lt;/p&gt;&#xA;&lt;p&gt;During the past few months, I found myself interested again in ergonomic keyboards, alternative keyboard layouts, and more recently home row modifications. At first, I started watching some episodes of Xah Lee’s &lt;em&gt;Xah Talk Show&lt;/em&gt; focusing specifically on keyboard reviews, and more importantly their ergonomics. His knowledge on the subject is fairly extensive, and with the company of &lt;a href=&#34;https://xahlee.info&#34; target=&#34;_blank&#34;&gt;his blog&lt;/a&gt;, peering into the world of keyboards was a trivial task. Of course, I didn’t &lt;em&gt;only&lt;/em&gt; look to Xah for keyboard knowledge. I also looked around on YouTube to hear what people had to say about the subject matter. Video format is possibly the best format to gain insight on physical items like keyboards, as the content creator can &lt;em&gt;show you&lt;/em&gt; in real time what works and what doesn’t for a given product. After binging a bit too many videos, I came to the conclusion that I would buy an ergonomic keyboard (within my budget).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hello, World!</title>
-      <link>/posts/hello_world/</link>
+      <link>http://localhost:1313/posts/hello_world/</link>
       <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/hello_world/</guid>
-      <description>This is the beginning of my personal blog/portfolio. Here I will write blog posts about whatever it is I&amp;rsquo;m working on at the time, as well as any significant developments in my life.
-Hope you enjoy!</description>
+      <guid>http://localhost:1313/posts/hello_world/</guid>
+      <description>&lt;p&gt;This is the beginning of my personal blog/portfolio. Here I will write blog posts about whatever it is I&amp;rsquo;m working on at the time, as well as any significant developments in my life.&lt;/p&gt;&#xA;&lt;p&gt;Hope you enjoy!&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>&lt;p&gt;I am an aspiring information technology analyst and cybersecurity consultant passionate about leveraging networking fundamentals, operating systems knowledge, cloud platforms, and vulnerability assessment to solve the problem of vulnerable digital infrastucture in critical environments and ensure businesses are able to operate with little-to-no room for malicious actors to compromise.&lt;/p&gt;&#xA;&lt;p&gt;My decision to pursue this field of work came from a love for technology and an ever-growing realization of how easy it is for us to grow complacent and create holes in what should be a nigh-impenetrable wall. That realization only deepened as I progressed through my academic journey. As the youngest graduate in the history of the University of the Virgin Islands, I earned my Associate&amp;rsquo;s and Bachelor&amp;rsquo;s degrees in Computer Science with a concentration in cybersecurity. Through hands-on implementation and research with technologies like Windows Sandbox, Hyper-V, ESP32 devices, and self-hosted services over private VPNs, I&amp;rsquo;ve built a deep understanding of secure architecture and threat mitigation in both enterprise and embedded environments.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on </title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in About on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>&lt;p&gt;I am an aspiring information technology analyst and cybersecurity consultant passionate about leveraging networking fundamentals, operating systems knowledge, cloud platforms, and vulnerability assessment to solve the problem of vulnerable digital infrastucture in critical environments and ensure businesses are able to operate with little-to-no room for malicious actors to compromise.&lt;/p&gt;&#xA;&lt;p&gt;My decision to pursue this field of work came from a love for technology and an ever-growing realization of how easy it is for us to grow complacent and create holes in what should be a nigh-impenetrable wall. That realization only deepened as I progressed through my academic journey. As the youngest graduate in the history of the University of the Virgin Islands, I earned my Associate&amp;rsquo;s and Bachelor&amp;rsquo;s degrees in Computer Science with a concentration in cybersecurity. Through hands-on implementation and research with technologies like Windows Sandbox, Hyper-V, ESP32 devices, and self-hosted services over private VPNs, I&amp;rsquo;ve built a deep understanding of secure architecture and threat mitigation in both enterprise and embedded environments.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
