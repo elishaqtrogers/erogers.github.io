@@ -33,19 +33,9 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
         # Note that you must put your markdown file 
         # inside of a directory with the same name.
 
-        # Example:
-        # ... /content/about/about.md
         {Name = "About", URL = "/about/", HasChildren = false},
-        
-        # LIST
-        # This example has a subheading of "Recent"
-        # and will display up to 5 items.
-
-        # Example:
-        # ... /content/posts/introducing-poison.md
+        {Name = "Portfolio", URL = "/portfolio/"},
         {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
-
-        # Example of a list without a subheading or limit.
         {Name = "Projects", URL = "/projects/"},
     ]
 
@@ -119,3 +109,8 @@ text_color_dark               = "#E8F5E9"
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
